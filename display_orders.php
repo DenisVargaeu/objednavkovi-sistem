@@ -35,10 +35,10 @@
 <meta http-equiv="refresh" content="1">
         <?php
         // Pripojenie k databáze
-        $db_server = "sql20.dnsserver.eu"; 
-        $db_login = "db91123xdenis";
-        $db_password = "8toT*wlT2bc.J3";
-        $db_name = "db91123xdenis";
+        $db_server = "server"; 
+        $db_login = "login";
+        $db_password = "heslo";
+        $db_name = "meno db";
 		
         // Vytvorenie spojenia
         $dbh = mysqli_connect($db_server, $db_login, $db_password, $db_name);
