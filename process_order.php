@@ -2,10 +2,10 @@
 $datumimt = date('Y-m-d H:i:s');
 
 ///DENIS
-$db_server = "sql20.dnsserver.eu"; 
-$db_login = "db91123xdenis";
-$db_password = "8toT*wlT2bc.J3";
-$db_name = "db91123xdenis";
+    $db_server = "server"; 
+        $db_login = "login";
+        $db_password = "heslo";
+        $db_name = "meno db";;
 
 // Create connection
 $dbh0 = mysqli_connect($db_server, $db_login, $db_password, $db_name);
