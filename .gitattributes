@@ -1,1 +1,5 @@
+* linguist-detectable=true
 *.php linguist-language=PHP
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
